@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Playfair+Display&family=Roboto+Slab&family=Smokum&display=swap');
+button{
+    cursor: pointer;
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  body{
+    margin: 0 auto;
+    background-color: rgb(8, 20, 16);
+    color: #fff;
+    font-family: 'Smokun';
+  }
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  article{
+    display: flex;
+    background-color:rgb(18, 109, 109);
+    max-width: 930px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 15px;
+    flex-direction: column;
+  }
+  
+  .User-img {
+    margin-right: 20px;
+  }
+  .User-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .rey_photo img{
+    max-width: 650px;
+    height: 350px;
+    border-radius: 15px;
+  }
+  .rey_photo {
+    width: 100%;
+  }
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 25px auto;
+}
+
+  .btn {
+    width: 60px;
+    height: fit-content;
+    gap: 10px;
+    background: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666677;
+  }
+ form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+  form input{
+    background-color: #33345668;
+  }
+
+  .follow:active svg path{
+    transform: scale(1.2);
+    fill: rgb(255, 0, 0);
+  }
+  .comments:active svg path{
+    transform: scale(1.2);
+    fill: rgb(255, 0, 0);
+   
+  }
+  .wrap{
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 15px;
+  }
