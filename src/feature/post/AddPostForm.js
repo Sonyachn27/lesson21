@@ -71,14 +71,19 @@ const canSave = Boolean(content) && Boolean(userId)
     value={content}
     onChange={onContentChanged}
     />
-
+<div className="photo-wrap"> 
+   <label htmlFor="add-photo"></label>
     <input
+    id="add-photo"
+    className="add-photo"
     type="file"
     onChange={onImageChanged}
     />
-
+    <span> Add photo</span>
+    </div>
     <button 
     type="button" 
+    className="save-post"
     disabled={!canSave}
     onClick={onSavePostClicked}> Save Post </button>
     </form>
